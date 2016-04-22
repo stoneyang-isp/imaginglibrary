@@ -1,1 +1,7 @@
+*.aux
 *.bak
+*.bbl
+*.blg
+*.dvi
+*.log
+*.gz

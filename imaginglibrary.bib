@@ -59,6 +59,20 @@
   Keywords                 = {correlation methods;image colour analysis;neural nets;Retinex method;chromaticity;color by correlation method;computational color constancy algorithms;gamut-mapping method;gray world methods;illumination conditions;image data;images;input data statistics;neural net method;pixel intensity;preprocessing strategies;scene illuminant;synthesized data;Application software;Calibration;Cameras;Correlation;Layout;Lighting;Neural networks;Object recognition;Statistics;Testing}
 }
 
+@InProceedings{Bell2008,
+  Title                    = {Noise in high dynamic range imaging},
+  Author                   = {A. A. Bell and C. Seiler and J. N. Kaftan and T. Aach},
+  Booktitle                = {2008 15th IEEE International Conference on Image Processing},
+  Year                     = {2008},
+  Month                    = {Oct},
+  Pages                    = {561-564},
+
+  Doi                      = {10.1109/ICIP.2008.4711816},
+  File                     = {:Papers\\HDRI\\NoiseReduction\\bell2008.pdf:PDF},
+  ISSN                     = {1522-4880},
+  Keywords                 = {cameras;image denoising;linearisation techniques;transfer functions;SNR;digital cameras;high dynamic range imaging;image acquisition process;noise reduction;nonlinear camera transfer function;Computer vision;Digital cameras;Dynamic range;Layout;Lighting;Noise reduction;Optical filters;Optical imaging;Optical sensors;Transfer functions;high dynamic range imaging;noise;noise reduction}
+}
+
 @Article{Bianco2014,
   Title                    = {Adaptive Color Constancy Using Faces},
   Author                   = {S. Bianco and R. Schettini},
@@ -88,6 +102,35 @@
   File                     = {:Papers\\HDRI\\ColorAppearance\\bianco2012.pdf:PDF},
   ISSN                     = {1063-6919},
   Keywords                 = {cameras;face recognition;image colour analysis;RAW format;color constancy;color space;color statistics;digital still camera processing pipelines;embedded face detector;gray level images;illuminant estimation;photographic images;portraits;public image dataset;real face detector;skin colors;Cameras;Detectors;Estimation;Histograms;Image color analysis;Skin;Standards}
+}
+
+@InProceedings{Bleier2011,
+  Title                    = {Color constancy and non-uniform illumination: Can existing algorithms work?},
+  Author                   = {M. Bleier and C. Riess and S. Beigpour and E. Eibenberger and E. Angelopoulou and T. Tr\"{o}ger and A. Kaup},
+  Booktitle                = {Computer Vision Workshops (ICCV Workshops), 2011 IEEE International Conference on},
+  Year                     = {2011},
+  Month                    = {Nov},
+  Pages                    = {774-781},
+
+  Doi                      = {10.1109/ICCVW.2011.6130331},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\bleier2011.pdf:PDF},
+  Keywords                 = {image colour analysis;image fusion;image resolution;image segmentation;lighting;regression analysis;color bias removal;color constancy methods;fusion methodologies;local illuminant estimation;nonuniform illumination;regression;superpixel segmentation;Bayesian methods;Databases;Estimation;Image color analysis;Image segmentation;Light sources;Lighting}
+}
+
+@Article{Buchsbaum1980,
+  Title                    = {A spatial processor model for object colour perception},
+  Author                   = {G. Buchsbaum},
+  Journal                  = {Journal of the Franklin Institute},
+  Year                     = {1980},
+  Number                   = {1},
+  Pages                    = {1-26},
+  Volume                   = {310},
+
+  Abstract                 = {A comprehensive mathematical model to account for colour constancy is formulated. Since the visual system is able to measure true object colour in complex scenes under a broad range of spectral compositions, for the illumination; it is assumed that the visual system must implicitly estimate and illuminant. The basic hypothesis is that the estimate of the illuminant is made on the basis of spatial information from the entire visual field. This estimate is then used by the visual system to arrive at an estimate of the (object) reflectance of the various subfields in the complex visual scene. The estimates are made by matching the inputs to the system to linear combinations of fixed bases and standards in the colour space. The model provides a general unified mathematical framework for related psychophysical phenomenology.},
+  Doi                      = {http://dx.doi.org/10.1016/0016-0032(80)90058-7},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\buchsbaum1980.pdf:PDF},
+  ISSN                     = {0016-0032},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/0016003280900587}
 }
 
 @Article{Calabria2001,
@@ -170,6 +213,97 @@ most likely go undetected.},
   Url                      = {http://doi.acm.org/10.1145/1276377.1276506}
 }
 
+@Article{Cheng2014,
+  Title                    = {Illuminant estimation for color constancy: why spatial-domain methods work and the role of the color distribution},
+  Author                   = {Dongliang Cheng and Dilip K. Prasad and Michael S. Brown},
+  Journal                  = {J. Opt. Soc. Am. A},
+  Year                     = {2014},
+
+  Month                    = {May},
+  Number                   = {5},
+  Pages                    = {1049--1058},
+  Volume                   = {31},
+
+  Abstract                 = {Color constancy is a well-studied topic in color vision. Methods are generally categorized as (1)\&\#xA0;low-level statistical methods, (2)\&\#xA0;gamut-based methods, and (3)\&\#xA0;learning-based methods. In this work, we distinguish methods depending on whether they work directly from color values (i.e., color domain) or from values obtained from the image\&\#x2019;s spatial information (e.g., image gradients/frequencies). We show that spatial information does not provide any additional information that cannot be obtained directly from the color distribution and that the indirect aim of spatial-domain methods is to obtain large color differences for estimating the illumination direction. This finding allows us to develop a simple and efficient illumination estimation method that chooses bright and dark pixels using a projection distance in the color distribution and then applies principal component analysis to estimate the illumination direction. Our method gives state-of-the-art results on existing public color constancy datasets as well as on our newly collected dataset (NUS dataset) containing 1736 images from eight different high-end consumer cameras.},
+  Doi                      = {10.1364/JOSAA.31.001049},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\cheng2014.pdf:PDF},
+  Keywords                 = {Cameras; Illumination; Color vision; Color, rendering and metamerism},
+  Publisher                = {OSA},
+  Url                      = {http://josaa.osa.org/abstract.cfm?URI=josaa-31-5-1049}
+}
+
+@InCollection{RoyChoudhury20151,
+  Title                    = {6 - Chromatic adaptation and colour constancy },
+  Author                   = {A.K. Roy Choudhury},
+  Booktitle                = {Principles of Colour and Appearance Measurement },
+  Publisher                = {Woodhead Publishing},
+  Year                     = {2015},
+
+  Address                  = {Oxford},
+  Editor                   = {Choudhury, Asim Kumar Roy},
+  Pages                    = {214-264},
+
+  Abstract                 = {Abstract With change of illumination the sensitivity of our eyes also changes due to chromatic adaptation, in a way such that the colour of the object remains approximately constant. Various chromatic adaptation models formulated by Hunt, Nayatani and \{CIE\} (CIECAM97s and CIECAM02) are discussed in detail. Different light sources can result in different colours of the same object surface. Fortunately, human beings have colour constancy: they perceive the same object colour despite large changes in illumination. A number of colour constancy indices, dependent and independent of chromatic adaptation, are discussed. },
+  Doi                      = {http://dx.doi.org/10.1533/9781782423881.214},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\choudhury2015.pdf:PDF},
+  ISBN                     = {978-1-78242-367-6},
+  Keywords                 = {colour appearance},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/B978178242367650006X}
+}
+
+@Article{Ebner2012,
+  Title                    = {A Computational Model for Color Perception},
+  Author                   = {Marc Ebner},
+  Journal                  = {Bio-Algorithms and Med-Systems},
+  Year                     = {2012},
+  Number                   = {4},
+  Pages                    = {387-415},
+  Volume                   = {8},
+
+  File                     = {:Papers\\HDRI\\ColorAppearance\\ebner2012.pdf:PDF;:Papers\\HDRI\\ColorAppearance\\ebner2012_compact.pdf:PDF},
+  Owner                    = {yangfan},
+  Review                   = {http://stubber.math-inf.uni-greifswald.de/~ebner/resources/uniG/colorPerception.pdf},
+  Timestamp                = {2016.04.21},
+  Url                      = {http://www.degruyter.com/view/j/bams.2012.8.issue-4/bams-2012-0028/bams-2012-0028.xml?format=INT}
+}
+
+@Article{Eilertsen2015,
+  Title                    = {Real-time Noise-aware Tone Mapping},
+  Author                   = {Eilertsen, Gabriel and Mantiuk, Rafa\l K. and Unger, Jonas},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {2015},
+
+  Month                    = oct,
+  Number                   = {6},
+  Pages                    = {198:1--198:15},
+  Volume                   = {34},
+
+  Acmid                    = {2818092},
+  Address                  = {New York, NY, USA},
+  Articleno                = {198},
+  Doi                      = {10.1145/2816795.2818092},
+  File                     = {:Papers\\HDRI\\ToneMapping\\Video\\eilertsen2015.pdf:PDF},
+  ISSN                     = {0730-0301},
+  Issue_date               = {November 2015},
+  Keywords                 = {high dynamic range imaging, tone mapping, video tone mapping},
+  Numpages                 = {15},
+  Publisher                = {ACM},
+  Review                   = {http://www.itn.liu.se/mit/research/computer-graphics-image-processing/real-time-noise-aware-tone-mapping?l=en
+http://vcl.itn.liu.se/publications/2015/EMU15/},
+  Url                      = {http://doi.acm.org/10.1145/2816795.2818092}
+}
+
+@Unpublished{Eilertsen2015supp,
+  Title                    = {Real-time noise aware tone mapping---Supplementary material},
+  Author                   = {Eilertsen, Gabriel and Mantiuk, Rafa\l K. and Unger, Jonas},
+  Year                     = {2015},
+
+  File                     = {:Papers\\HDRI\\ToneMapping\\Video\\eilertsen2015_supplementary.pdf:PDF},
+  Owner                    = {yangfan},
+  Timestamp                = {2016.04.20},
+  Url                      = {http://vcl.itn.liu.se/publications/2015/EMU15/suppmat/SGA15_supplementary.pdf}
+}
+
 @InProceedings{Eilertsen2013short,
   Title                    = {Survey and Evaluation of Tone Mapping Operators for HDR Video},
   Author                   = {Eilertsen, Gabriel and Unger, Jonas and Wanat, Robert and Mantiuk, Rafa\l},
@@ -230,6 +364,24 @@ the implementation of this model framework will be refined in the coming years a
   Url                      = {http://www.ingentaconnect.com/content/ist/cic/2002/00002002/00000001/art00008}
 }
 
+@Article{Foster2011,
+  Title                    = {Color constancy },
+  Author                   = {David H. Foster},
+  Journal                  = {Vision Research },
+  Year                     = {2011},
+  Note                     = {Vision Research 50th Anniversary Issue: Part 1 },
+  Number                   = {7},
+  Pages                    = {674 - 700},
+  Volume                   = {51},
+
+  Abstract                 = {A quarter of a century ago, the first systematic behavioral experiments were performed to clarify the nature of color constancy¡ªthe effect whereby the perceived color of a surface remains constant despite changes in the spectrum of the illumination. At about the same time, new models of color constancy appeared, along with physiological data on cortical mechanisms and photographic colorimetric measurements of natural scenes. Since then, as this review shows, there have been many advances. The theoretical requirements for constancy have been better delineated and the range of experimental techniques has been greatly expanded; novel invariant properties of images and a variety of neural mechanisms have been identified; and increasing recognition has been given to the relevance of natural surfaces and scenes as laboratory stimuli. Even so, there remain many theoretical and experimental challenges, not least to develop an account of color constancy that goes beyond deterministic and relatively simple laboratory stimuli and instead deals with the intrinsically variable nature of surfaces and illuminations present in the natural world. },
+  Doi                      = {http://dx.doi.org/10.1016/j.visres.2010.09.006},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\foster2011.pdf:PDF},
+  ISSN                     = {0042-6989},
+  Keywords                 = {Color constancy},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0042698910004402}
+}
+
 @InProceedings{Froehlich2014,
   Title                    = {Creating cinematic wide gamut HDR-video for the evaluation of tone mapping operators and HDR-displays
 },
@@ -251,6 +403,88 @@ the implementation of this model framework will be refined in the coming years a
   Url                      = {http://dx.doi.org/10.1117/12.2040003}
 }
 
+@Article{Funt1991,
+  Title                    = {Color constancy from mutual reflection},
+  Author                   = {Funt, Brian V. and Drew, Mark S. and Ho, Jian},
+  Journal                  = {International Journal of Computer Vision},
+  Year                     = {1991},
+  Number                   = {1},
+  Pages                    = {5-24},
+  Volume                   = {6},
+
+  Abstract                 = {Mutual reflection occurs when light reflected from one surface illuminates a second surface. In this situation, the color of one or both surfaces can be modified by a color-bleeding effect. In this article we examine how sensor values (e.g., RGB values) are modified in the mutual reflection region and show that a good approximation of the surface spectral reflectance function for each surface can be recovered by using the extra information from mutual reflection. Thus color constancy results from an examination of mutual reflection. Use is made of finite dimensional linear models for ambient illumination and for surface spectral reflectance. If m and n are the number of basis functions required to model illumination and surface spectral reflectance respectively, then we find that the number of different sensor classes p must satisfy the condition p¡Ý(2 n+m)/3. If we use three basis functions to model illumination and three basis functions to model surface spectral reflectance, then only three classes of sensors are required to carry out the algorithm. Results are presented showing a small increase in error over the error inherent in the underlying finite dimension models.},
+  Doi                      = {10.1007/BF00127123},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\funt1991.pdf:PDF},
+  ISSN                     = {1573-1405},
+  Url                      = {http://dx.doi.org/10.1007/BF00127123}
+}
+
+@InProceedings{Gershon1987,
+  Title                    = {From {[R,G,B]} to Surface Reflectance: Computing Color Constant Descriptors in Images},
+  Author                   = {Gershon, Ron and Jepson, Allan D. and Tsotsos, John K.},
+  Booktitle                = {Proceedings of the 10th International Joint Conference on Artificial Intelligence - Volume 2},
+  Year                     = {1987},
+
+  Address                  = {San Francisco, CA, USA},
+  Pages                    = {755-758},
+  Publisher                = {Morgan Kaufmann Publishers Inc.},
+  Series                   = {IJCAI'87},
+
+  Acmid                    = {1626030},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\Gershon1987.pdf:PDF},
+  Location                 = {Milan, Italy},
+  Numpages                 = {4},
+  Url                      = {http://dl.acm.org/citation.cfm?id=1625995.1626030}
+}
+
+@Article{Gijsenij2011,
+  Title                    = {Computational Color Constancy: Survey and Experiments},
+  Author                   = {A. Gijsenij and T. Gevers and J. van de Weijer},
+  Journal                  = {IEEE Transactions on Image Processing},
+  Year                     = {2011},
+
+  Month                    = {Sept},
+  Number                   = {9},
+  Pages                    = {2475-2489},
+  Volume                   = {20},
+
+  Doi                      = {10.1109/TIP.2011.2118224},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\Gijsenij2011.pdf:PDF},
+  ISSN                     = {1057-7149},
+  Keywords                 = {colour vision;computer vision;image colour analysis;learning (artificial intelligence);lighting;computational color constancy;computer vision application;gamut-based method;learning-based method;static method;Adaptation model;Computational modeling;Estimation;Humans;Image color analysis;Light sources;Pixel;Color constancy;illuminant estimation;performance evaluation;survey}
+}
+
+@Article{Granzier2009,
+  Title                    = {Can illumination estimates provide the basis for color constancy?},
+  Author                   = {Granzier, Jeroen J. M. and Brenner, Eli and Smeets, Jeroen B. J.},
+  Journal                  = {Journal of Vision},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {18},
+  Volume                   = {9},
+
+  Doi                      = {10.1167/9.3.18},
+  Eprint                   = {/data/Journals/JOV/933533/jov-9-3-18.pdf},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\Granzier2009.pdf:PDF},
+  Url                      = {http://dx.doi.org/10.1167/9.3.18}
+}
+
+@InProceedings{Hasinoff2010,
+  Title                    = {Noise-optimal capture for high dynamic range photography},
+  Author                   = {S. W. Hasinoff and F. Durand and W. T. Freeman},
+  Booktitle                = {Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on},
+  Year                     = {2010},
+  Month                    = {June},
+  Pages                    = {553-560},
+
+  Doi                      = {10.1109/CVPR.2010.5540167},
+  File                     = {:Papers\\HDRI\\NoiseReduction\\hasinoff2010.pdf:PDF},
+  ISSN                     = {1063-6919},
+  Keywords                 = {image denoising;image sequences;integer programming;photography;HDR;SNR;high dynamic range photography;mixed integer programming problem;noise optimal capture;noise reduction;Additive noise;Cameras;Computer science;Dynamic range;ISO standards;Layout;Linear programming;Noise reduction;Photography;Signal to noise ratio},
+  Review                   = {http://people.csail.mit.edu/hasinoff/hdrnoise/},
+  Url                      = {http://people.csail.mit.edu/hasinoff/hdrnoise/}
+}
+
 @InProceedings{Ji2014,
   Title                    = {Image Pre-compensation: Balancing Contrast and Ringing},
   Author                   = {Yu Ji and Jinwei Ye and Sing Bing Kang and Jingyi Yu},
@@ -264,6 +498,22 @@ the implementation of this model framework will be refined in the coming years a
   Keywords                 = {image enhancement;balancing contrast;global tone mapping functions;image precompensation;intensity histogram;latent image;sharp reference image;visual acuity enhancement;Convolution;Deconvolution;Dynamic range;Histograms;Image edge detection;Kernel;Visualization;contrast enhancement;defocus compensation;global tone mapping;image deconvolution;image pre-compensation},
   Owner                    = {yangfan},
   Timestamp                = {2016.04.19}
+}
+
+@Article{Kawakami2013,
+  Title                    = {Camera Spectral Sensitivity and White Balance Estimation from Sky Images},
+  Author                   = {Kawakami, Rei and Zhao, Hongxun and Tan, Robby T. and Ikeuchi, Katsushi},
+  Journal                  = {International Journal of Computer Vision},
+  Year                     = {2013},
+  Number                   = {3},
+  Pages                    = {187-204},
+  Volume                   = {105},
+
+  Abstract                 = {Photometric camera calibration is often required in physics-based computer vision. There have been a number of studies to estimate camera response functions (gamma function), and vignetting effect from images. However less attention has been paid to camera spectral sensitivities and white balance settings. This is unfortunate, since those two properties significantly affect image colors. Motivated by this, a method to estimate camera spectral sensitivities and white balance setting jointly from images with sky regions is introduced. The basic idea is to use the sky regions to infer the sky spectra. Given sky images as the input and assuming the sun direction with respect to the camera viewing direction can be extracted, the proposed method estimates the turbidity of the sky by fitting the image intensities to a sky model. Subsequently, it calculates the sky spectra from the estimated turbidity. Having the sky \$\$RGB\$\$ RGB values and their corresponding spectra, the method estimates the camera spectral sensitivities together with the white balance setting. Precomputed basis functions of camera spectral sensitivities are used in the method for robust estimation. The whole method is novel and practical since, unlike existing methods, it uses sky images without additional hardware, assuming the geolocation of the captured sky is known. Experimental results using various real images show the effectiveness of the method.},
+  Doi                      = {10.1007/s11263-013-0632-1},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\kawakami2013.pdf:PDF},
+  ISSN                     = {1573-1405},
+  Url                      = {http://dx.doi.org/10.1007/s11263-013-0632-1}
 }
 
 @InProceedings{Kuhna2011,
@@ -331,14 +581,22 @@ the implementation of this model framework will be refined in the coming years a
   Url                      = {http://doi.acm.org/10.1145/1073204.1073271}
 }
 
-@Unpublished{Mantiuk2008supp,
-  Title                    = {Display Adaptive Tone Mapping - Supplementary Materials},
-  Author                   = {Mantiuk, Rafa\l and Daly, Scott and Kerofsky, Louis},
+@Article{Maloney1986,
+  Title                    = {Color constancy: a method for recovering surface spectral reflectance},
+  Author                   = {Laurence T. Maloney and Brian A. Wandell},
+  Journal                  = {J. Opt. Soc. Am. A},
+  Year                     = {1986},
 
-  File                     = {:Papers\\HDRI\\ToneMapping\\Local\\Mantiuk\\opttmo_supp.pdf:PDF},
-  Owner                    = {yangfan},
-  Timestamp                = {2016.04.19},
-  Url                      = {http://resources.mpi-inf.mpg.de/hdr/datmo/results/opttmo_supp.pdf}
+  Month                    = {Jan},
+  Number                   = {1},
+  Pages                    = {29-33},
+  Volume                   = {3},
+
+  Abstract                 = {Human and machine visual sensing is enhanced when surface properties of objects in scenes, including color, can be reliably estimated despite changes in the ambient lighting conditions. We describe a computational method for estimating surface spectral reflectance when the spectral power distribution of the ambient light is not known.},
+  Doi                      = {10.1364/JOSAA.3.000029},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\Maloney1986.pdf:PDF},
+  Publisher                = {OSA},
+  Url                      = {http://josaa.osa.org/abstract.cfm?URI=josaa-3-1-29}
 }
 
 @Article{Mantiuk2008,
@@ -365,6 +623,17 @@ the implementation of this model framework will be refined in the coming years a
   Publisher                = {ACM},
   Timestamp                = {2016.04.19},
   Url                      = {http://doi.acm.org/10.1145/1360612.1360667}
+}
+
+@Unpublished{Mantiuk2008supp,
+  Title                    = {Display Adaptive Tone Mapping - Supplementary Materials},
+  Author                   = {Mantiuk, Rafa\l and Daly, Scott and Kerofsky, Louis},
+  Year                     = {2008},
+
+  File                     = {:Papers\\HDRI\\ToneMapping\\Local\\Mantiuk\\opttmo_supp.pdf:PDF},
+  Owner                    = {yangfan},
+  Timestamp                = {2016.04.19},
+  Url                      = {http://resources.mpi-inf.mpg.de/hdr/datmo/results/opttmo_supp.pdf}
 }
 
 @Article{Mantiuk2011,
@@ -461,6 +730,25 @@ the implementation of this model framework will be refined in the coming years a
   Review                   = {http://ivrl.epfl.ch/page-74617-en.html}
 }
 
+@Article{Mizokami2014,
+  Title                    = {Color constancy influenced by unnatural spatial structure},
+  Author                   = {Yoko Mizokami and Hirohisa Yaguchi},
+  Journal                  = {J. Opt. Soc. Am. A},
+  Year                     = {2014},
+
+  Month                    = {Apr},
+  Number                   = {4},
+  Pages                    = {A179--A185},
+  Volume                   = {31},
+
+  Abstract                 = {The recognition of spatial structures is important for color constancy because we cannot identify an object\&\#x2019;s color under different illuminations without knowing which space it is in and how that space is illuminated. To show the importance of the natural structure of environments on color constancy, we investigated the way in which color appearance was affected by unnatural viewing conditions in which a spatial structure was distorted. Observers judged the color of a test patch placed in the center of a small room illuminated by white or reddish lights, as well as two rooms illuminated by white and reddish light, respectively. In the natural viewing condition, an observer saw the room(s) through a viewing window, whereas in an unnatural viewing condition, the scene structure was scrambled by a kaleidoscope-type viewing box. Results of single room condition with one illuminant color showed little difference in color constancy between the two viewing conditions. However, it decreased in the two-rooms condition with a more complex arrangement of space and illumination. The patch\&\#x2019;s appearance under the unnatural viewing condition was more influenced by simultaneous contrast than its appearance under the natural viewing condition. It also appears that color appearance under white illumination is more stable compared to that under reddish illumination. These findings suggest that natural spatial structure plays an important role for color constancy in a complex environment.},
+  Doi                      = {10.1364/JOSAA.31.00A179},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\mizokami2014.pdf:PDF},
+  Keywords                 = {Vision, color, and visual optics ; Color vision; Psychophysics},
+  Publisher                = {OSA},
+  Url                      = {http://josaa.osa.org/abstract.cfm?URI=josaa-31-4-A179}
+}
+
 @InProceedings{Narasimha2015,
   Title                    = {A real-time high dynamic range HD video camera},
   Author                   = {Narasimha, R. and Batur, U.},
@@ -524,6 +812,44 @@ the implementation of this model framework will be refined in the coming years a
   Keywords                 = {gaze tracking;image processing;HDR technology;LDR technology;camera design;consumer display products;high dynamic range content viewing experience evaluation;human visual experience;low dynamic range technology;objective eye movement measures;objective performance measures;subjective eye movement measures;vis-a-vis eye-tracking data;visual attention models;Dynamic range;Image color analysis;Monitoring;Tracking;Video sequences;Videos;Visualization;Eye-Tracking;HDR;High dynamic range;Visual attention model},
   Owner                    = {yangfan},
   Timestamp                = {2016.04.19}
+}
+
+@InBook{Nguyen2014,
+  Title                    = {Computer Vision -- ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part VII},
+  Author                   = {Nguyen, Rang M. H. and Prasad, Dilip K. and Brown, Michael S.},
+  Chapter                  = {Training-Based Spectral Reconstruction from a Single RGB Image},
+  Editor                   = {Fleet, David and Pajdla, Tomas and Schiele, Bernt and Tuytelaars, Tinne},
+  Pages                    = {186-201},
+  Publisher                = {Springer International Publishing},
+  Year                     = {2014},
+
+  Address                  = {Cham},
+
+  Doi                      = {10.1007/978-3-319-10584-0_13},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\nguyen2014.pdf:PDF},
+  ISBN                     = {978-3-319-10584-0},
+  Url                      = {http://dx.doi.org/10.1007/978-3-319-10584-0_13}
+}
+
+@InProceedings{Robles-Kelly2015,
+  Title                    = {Single Image Spectral Reconstruction for Multimedia Applications},
+  Author                   = {Robles-Kelly, Antonio},
+  Booktitle                = {Proceedings of the 23rd ACM International Conference on Multimedia},
+  Year                     = {2015},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {251--260},
+  Publisher                = {ACM},
+  Series                   = {MM '15},
+
+  Acmid                    = {2806223},
+  Doi                      = {10.1145/2733373.2806223},
+  File                     = {:Papers\\HDRI\\ColorAppearance\\Robles-Kelly2015.pdf:PDF},
+  ISBN                     = {978-1-4503-3459-4},
+  Keywords                 = {image reproduction and enhacement, sparse coding, spectral reconstruction},
+  Location                 = {Brisbane, Australia},
+  Numpages                 = {10},
+  Url                      = {http://doi.acm.org/10.1145/2733373.2806223}
 }
 
 @Article{Vangorp2015,
